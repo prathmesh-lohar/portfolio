@@ -339,7 +339,7 @@
         <div class="contact__form-container">
           <form action="#" class="contact__form">
             <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
+              <label class="contact__form-label" for="name" >Name</label>
               <input
                 required
                 placeholder="Enter Your Name"
@@ -347,10 +347,11 @@
                 class="contact__form-input"
                 name="name"
                 id="name"
+               required
               />
             </div>
             <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
+              <label class="contact__form-label" for="email"  required>Email</label>
               <input
                 required
                 placeholder="Enter Your Email"
@@ -358,10 +359,11 @@
                 class="contact__form-input"
                 name="email"
                 id="email"
+                required
               />
             </div>
             <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
+              <label class="contact__form-label" for="message" >Message</label>
               <textarea
                 required
                 cols="30"
@@ -370,9 +372,10 @@
                 placeholder="Enter Your Message"
                 name="message"
                 id="message"
+                required
               ></textarea>
             </div>
-            <button type="submit" class="btn btn--theme contact__btn">
+            <button type="submit" onclick="save()" class="btn btn--theme contact__btn">
               Submit
             </button>
           </form>
@@ -381,7 +384,21 @@
     </section>
 
 
+<script>
+ function save()
+ {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
 
+  var str =  "*name :* " + name + "  " + "*email :* "+ email + "  " + "*message :* " + message;
+
+  var link = "https://wa.me/9168260646?text="+str;
+    
+  window.open(link);
+
+ }
+</script>
 
 
 
