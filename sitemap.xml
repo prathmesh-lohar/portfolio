@@ -16,6 +16,22 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Featured Project: Plitalk AI -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/project/plitalk-ai/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.98</priority>
+  </url>
+
+  <!-- Featured Project: BookMyBlouse -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/project/bookmyblouse/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
   <!-- Project 1: VDF School of Engineering -->
   <url>
     <loc>https://prathmesh-lohar.github.io/portfolio/project/vdf-school-of-engineering/</loc>

@@ -1156,4 +1156,64 @@ textarea {
 
 .project-pagination__link:hover .project-pagination__title {
   text-decoration: underline;
-}
+}
+
+/* Demo Credentials Card & Badges */
+.demo-credentials-card {
+  margin: 2.5rem 0;
+  padding: 1.8rem 2.2rem;
+  background: #f0f7ff;
+  border: 1.5px solid #bcd8ff;
+  border-left: 5px solid #0062b9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-shadow: 0 4px 14px rgba(0, 98, 185, 0.08);
+}
+
+.demo-credentials-card--compact {
+  margin: 1.5rem 0 2rem 0;
+  padding: 1.2rem 1.6rem;
+  font-size: 1.4rem;
+}
+
+.demo-credentials-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #004b8d;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  letter-spacing: 0.3px;
+}
+
+.demo-credentials-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.demo-credential-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #ffffff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  border: 1px solid #d0e2ff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.demo-credential-item code {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  color: #0062b9;
+  background: #eef5ff;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+
