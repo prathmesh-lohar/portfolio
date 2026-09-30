@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Resume -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/resume.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Project 1: VDF School of Engineering -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/project/vdf-school-of-engineering/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Project 2: PanditPlus -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/project/pandit-plus/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Project 3: AI Smart Receptionist -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/project/ai-smart-receptionist/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Project 4: DebugNow -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/project/debugnow-educational-platform/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Project 5: DreamHaat -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/project/dreamhaat-ecommerce/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Project 6: MayLancer -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/project/maylancer-freelance-platform/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Project 7: DreamH -->
+  <url>
+    <loc>https://prathmesh-lohar.github.io/portfolio/project/dreamh-ecommerce/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

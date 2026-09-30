@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Primary SEO Meta Tags -->
+    <title>AI Based Smart Receptionist For MSBECL | Case Study | Prathmesh Lohar</title>
+    <meta name="title" content="AI Based Smart Receptionist For MSBECL | Case Study | Prathmesh Lohar" />
+    <meta
+      name="description"
+      content="Case study of an intelligent virtual AI receptionist developed for MSBECL utilizing Python, PyTorch neural networks, NLTK NLP processing, and speech synthesis."
+    />
+    <meta
+      name="keywords"
+      content="AI Smart Receptionist, MSBECL, Python, PyTorch, NLTK, Natural Language Processing, gTTS Speech Synthesis, Artificial Intelligence, Machine Learning Project, Prathmesh Lohar"
+    />
+    <meta name="author" content="Prathmesh Lohar" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://prathmesh-lohar.github.io/portfolio/project/ai-smart-receptionist/" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://prathmesh-lohar.github.io/portfolio/project/ai-smart-receptionist/" />
+    <meta property="og:title" content="AI Based Smart Receptionist For MSBECL – Case Study" />
+    <meta
+      property="og:description"
+      content="Virtual receptionist AI assistant powered by PyTorch neural network training, voice command processing, and real-time knowledge retrieval."
+    />
+    <meta property="og:image" content="https://prathmesh-lohar.github.io/portfolio/assets/png/ai.png" />
+    <meta property="og:image:alt" content="AI Smart Receptionist Project Demo Preview" />
+    <meta property="og:site_name" content="Prathmesh Lohar Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://prathmesh-lohar.github.io/portfolio/project/ai-smart-receptionist/" />
+    <meta name="twitter:title" content="AI Based Smart Receptionist For MSBECL – Case Study" />
+    <meta
+      name="twitter:description"
+      content="Virtual receptionist AI assistant powered by PyTorch neural network training, voice command processing, and real-time knowledge retrieval."
+    />
+    <meta name="twitter:image" content="https://prathmesh-lohar.github.io/portfolio/assets/png/ai.png" />
+
+    <!-- Stylesheets & Fonts -->
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon/favicon-16x16.png" />
+    <link rel="manifest" href="../../favicon/site.webmanifest" />
+    <link rel="mask-icon" href="../../favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- JSON-LD Structured Data Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://prathmesh-lohar.github.io/portfolio/project/ai-smart-receptionist/#webpage",
+            "url": "https://prathmesh-lohar.github.io/portfolio/project/ai-smart-receptionist/",
+            "name": "AI Based Smart Receptionist For MSBECL | Case Study",
+            "description": "Case study of an intelligent virtual AI receptionist developed for MSBECL utilizing Python, PyTorch neural networks, NLTK NLP processing, and speech synthesis.",
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://prathmesh-lohar.github.io/portfolio/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Projects",
+                  "item": "https://prathmesh-lohar.github.io/portfolio/#projects"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "AI Smart Receptionist",
+                  "item": "https://prathmesh-lohar.github.io/portfolio/project/ai-smart-receptionist/"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "AI Based Smart Receptionist For MSBECL",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Linux",
+            "author": {
+              "@type": "Person",
+              "name": "Prathmesh Lohar",
+              "url": "https://prathmesh-lohar.github.io/portfolio/"
+            },
+            "image": "https://prathmesh-lohar.github.io/portfolio/assets/png/ai.png",
+            "keywords": "Python, PyTorch, NLTK, gTTS, Natural Language Processing, Machine Learning"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container" data-home="../../index.html" style="cursor: pointer;">
+          <div class="header__logo-img-cont">
+            <img
+              src="../../assets/png/prathmesh-lohar.png"
+              alt="Prathmesh Lohar Logo"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Prathmesh Lohar</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="../../index.html" class="header__link">Home</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../../index.html#about" class="header__link">About</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../../index.html#projects" class="header__link">Projects</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../../index.html#contact" class="header__link">Contact</a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="../../assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="../../assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="../../index.html">Home</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="../../index.html#about">About</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="../../index.html#projects">Projects</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="../../index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Project Hero Section -->
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">AI Based Smart Receptionist For MSBECL</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            An artificial intelligence-driven virtual receptionist assistant capable of understanding voice queries,
+            generating conversational responses, scraping live knowledge, and handling office visitor communication.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a
+            href="https://youtu.be/E1RlpxIOqjg?si=QPjlNkKbTrdeTwyn"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn--bg"
+          >Watch Demo Video</a>
+        </div>
+      </div>
+
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+
+    <!-- Project Details Section -->
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <!-- SEO Breadcrumb Navigation -->
+          <nav aria-label="Breadcrumb">
+            <ul class="project-breadcrumbs">
+              <li class="project-breadcrumbs__item">
+                <a href="../../index.html">Home</a>
+                <span class="project-breadcrumbs__separator">/</span>
+              </li>
+              <li class="project-breadcrumbs__item">
+                <a href="../../index.html#projects">Projects</a>
+                <span class="project-breadcrumbs__separator">/</span>
+              </li>
+              <li class="project-breadcrumbs__item">
+                <span class="project-breadcrumbs__current" aria-current="page">AI Smart Receptionist</span>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Showcase Video/Media -->
+          <div class="adhd-top-video" style="display: flex; justify-content: center; margin-bottom: 5rem;">
+            <div class="adhd-top-video2" style="max-width: 720px; width: 100%; aspect-ratio: 16/9;">
+              <iframe
+                style="width: 100%; height: 100%; border-radius: 8px;"
+                src="https://www.youtube.com/embed/E1RlpxIOqjg?si=kG9OPal1Te4Mziu_"
+                title="AI Based Smart Receptionist Video Demo"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h2 class="project-details__content-title">Project Overview</h2>
+              <p class="project-details__desc-para">
+                The <strong>AI Based Smart Receptionist</strong> is an autonomous software agent designed to handle receptionist and
+                front-desk responsibilities for enterprises, academic institutions, and organizations like MSBECL.
+              </p>
+              <p class="project-details__desc-para">
+                The system listens to natural human voice queries through audio input devices, tokenizes and extracts intent using
+                <strong>Natural Language Toolkit (NLTK)</strong>, feeds intent representations through a neural network built with
+                <strong>PyTorch</strong>, and synthesizes clear vocal feedback via <strong>gTTS (Google Text-to-Speech)</strong>.
+              </p>
+              <p class="project-details__desc-para">
+                Beyond static responses, the AI dynamically extracts real-time information by querying APIs and parsing web data sources
+                (such as Wikipedia knowledge integration) to answer unexpected domain and informational queries.
+              </p>
+              <p class="project-details__desc-para">
+                Developed as a comprehensive final year engineering initiative by Prathmesh Lohar, Aniket Madhurkar, and Kedar Tandale
+                under the guidance of Prof. D.V. Biradar.
+              </p>
+            </div>
+
+            <div class="project-details__tools-used">
+              <h2 class="project-details__content-title">Tools & Technologies Used</h2>
+              <div class="skills">
+                <div class="skills__skill">Python 3</div>
+                <div class="skills__skill">PyTorch</div>
+                <div class="skills__skill">NLTK (Natural Language Toolkit)</div>
+                <div class="skills__skill">gTTS (Speech Synthesis)</div>
+                <div class="skills__skill">Speech Recognition</div>
+                <div class="skills__skill">Web Scraping / Wikipedia API</div>
+                <div class="skills__skill">Linux OS</div>
+                <div class="skills__skill">Git</div>
+              </div>
+            </div>
+
+            <div class="project-details__tools-used">
+              <h2 class="project-details__content-title">Sample Interaction Queries & Responses</h2>
+              <div class="list" style="background: #fdfdfd; border: 1px solid #eee; border-radius: 8px; padding: 2rem;">
+                <div style="font-size: 1.6rem; line-height: 1.8;">
+                  <p><strong>Query 1:</strong> "Is anyone there?"<br />
+                  <strong>AI Response:</strong> "Hi there, how can I help you today?"</p>
+                  
+                  <p><strong>Query 2:</strong> "Who are you?"<br />
+                  <strong>AI Response:</strong> "I am an AI-based Smart Receptionist created by Prathmesh Lohar, Aniket Madhurkar, and Kedar Tandale under the guidance of Prof. D.V. Biradar Sir."</p>
+
+                  <p><strong>Query 3:</strong> "Play music"<br />
+                  <strong>AI Response:</strong> "Playing music now."</p>
+
+                  <p><strong>Query 4:</strong> "What is Java according to Wikipedia?"<br />
+                  <strong>AI Response:</strong> "Java is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible."</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details__links">
+              <h2 class="project-details__content-title">Watch Demo</h2>
+              <a
+                href="https://youtu.be/E1RlpxIOqjg?si=QPjlNkKbTrdeTwyn"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Demo Link</a>
+              <a
+                href="../../index.html#projects"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+              >All Projects</a>
+            </div>
+
+            <!-- SEO Project Pagination -->
+            <nav class="project-pagination" aria-label="Project Navigation">
+              <a href="../vdf-school-of-engineering/" class="project-pagination__link">
+                <span class="project-pagination__sub">&larr; Previous Project</span>
+                <span class="project-pagination__title">VDF School of Engineering</span>
+              </a>
+              <a href="../debugnow-educational-platform/" class="project-pagination__link project-pagination__link--next">
+                <span class="project-pagination__sub">Next Project &rarr;</span>
+                <span class="project-pagination__title">DebugNow</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/prathmesh-lohar/">
+                <img
+                  class="main-footer__icon"
+                  src="../../assets/png/linkedin-ico.png"
+                  alt="LinkedIn Profile"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/prathmesh-lohar">
+                <img
+                  class="main-footer__icon"
+                  src="../../assets/png/github-ico.png"
+                  alt="GitHub Profile"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.youtube.com/@webuniversitylp">
+                <img
+                  class="main-footer__icon"
+                  src="../../assets/png/yt-ico.png"
+                  alt="YouTube Channel"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://m.facebook.com/100008259092724/">
+                <img
+                  class="main-footer__icon"
+                  src="../../assets/png/fbicon.png"
+                  alt="Facebook Profile"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/prathmesh.lohar.5/">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="../../assets/png/insta-ico.png"
+                  alt="Instagram Profile"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Prathmesh Lohar</h4>
+            <p class="main-footer__short-desc">
+              A Full Stack Web Developer building modern Websites and Web Applications using latest technologies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../index.js"></script>
+  </body>
+</html>

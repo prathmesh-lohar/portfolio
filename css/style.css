@@ -1069,3 +1069,91 @@ textarea {
     top: 27px;
   }
 }
+
+/* ==========================================================================
+   SEO Breadcrumbs & Project Case Study Navigation
+   ========================================================================== */
+.project-breadcrumbs {
+  margin-bottom: 3.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  list-style: none;
+  padding: 0;
+}
+
+.project-breadcrumbs__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.project-breadcrumbs__item a {
+  color: #0062b9;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.project-breadcrumbs__item a:hover {
+  text-decoration: underline;
+  color: #004b8d;
+}
+
+.project-breadcrumbs__separator {
+  color: #aaa;
+  font-weight: 400;
+}
+
+.project-breadcrumbs__current {
+  color: #555;
+  font-weight: 700;
+}
+
+.project-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 6rem;
+  padding-top: 4rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.project-pagination__link {
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.project-pagination__link:hover {
+  transform: translateY(-2px);
+}
+
+.project-pagination__link--next {
+  margin-left: auto;
+  text-align: right;
+}
+
+.project-pagination__sub {
+  display: block;
+  font-size: 1.3rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.project-pagination__title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0062b9;
+}
+
+.project-pagination__link:hover .project-pagination__title {
+  text-decoration: underline;
+}

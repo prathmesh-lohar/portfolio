@@ -33,6 +33,10 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
 // ---
 const headerLogoConatiner = document.querySelector('.header__logo-container')
 
-headerLogoConatiner.addEventListener('click', () => {
-  location.href = 'index.html'
-})
+if (headerLogoConatiner) {
+  headerLogoConatiner.addEventListener('click', () => {
+    const homeUrl = headerLogoConatiner.getAttribute('data-home') || './index.html'
+    location.href = homeUrl
+  })
+}
+
